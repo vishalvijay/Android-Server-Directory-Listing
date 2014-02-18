@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/directoryListingRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp" >
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/icon"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iconImageView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/sizeLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTextView"
+        android:layout_toRightOf="@id/iconImageView"
+        android:text="@string/size"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/sizeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTextView"
+        android:layout_toRightOf="@id/sizeLabelTextView"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/dateLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sizeLabelTextView"
+        android:layout_toRightOf="@id/iconImageView"
+        android:text="@string/modified"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sizeLabelTextView"
+        android:layout_toRightOf="@id/dateLabelTextView"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="italic" />
+
+</RelativeLayout>

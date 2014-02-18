@@ -2,5 +2,18 @@
 <resources>
 
     <string name="app_name">Android Server Directory Listing</string>
+    <string name="default_connection_error">Request could not be processed.</string>
+    <string name="internet_not_available">Internet connection not available.</string>
+    <string name="size">Size</string>
+    <string name="modified">Modified</string>
+    <string name="icon">Icon</string>
+    <string name="please_wait">Please wait</string>
+    <string name="back">Back</string>
+    <string name="refresh">Refresh</string>
+    <string name="download_complete">Download complete</string>
+    <string name="download_unsuccessful">Download unsuccessful</string>
+    <string name="downloading">Downloading&#8230;</string>
+    <string name="downloading_started">Downloading started</string>
+    <string name="empty_folder">Empty folder</string>
 
 </resources>
