@@ -134,20 +134,20 @@ public class DirectoryListingFragment extends ListFragment implements
 	private void showProgressLinearLayout() {
 		progressLinearLayout.setVisibility(View.VISIBLE);
 		progressBar.setVisibility(View.VISIBLE);
-		progressTextView.setText("Please wait...");
+		progressTextView.setText(R.string.please_wait);
 	}
 
 	private void showReload() {
 		progressLinearLayout.setVisibility(View.VISIBLE);
 		progressBar.setVisibility(View.GONE);
-		progressTextView.setText("Please reload");
+		progressTextView.setText(R.string.please_reload);
 	}
 
 	@Override
 	public void onStartLoading() {
 		mAdapter.clear();
 		showProgressLinearLayout();
-		changeSubtitle("Loading...");
+		changeSubtitle(getString(R.string.loading));
 	}
 
 	private void changeSubtitle(String string) {
